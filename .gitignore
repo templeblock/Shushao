@@ -1,0 +1,34 @@
+# Directories
+/bin/
+obj/
+lib/
+objs/
+stage/
+
+Makefile
+!.makefiles/makefile
+
+# vs
+**/*.user
+**/.vs/
+**/*.vcxproj
+**/*.filters
+**/*.sln
+
+# vscode
+.vscode/ipch
+
+# codeblocks
+**/*.layout
+**/*.depend
+**/*.cscope_file_list
+**/*.save-failed
+**/*.workspace
+**/*.cbp
+**/*.make
+
+# Precompiled Headers
+*.gch
+*.pch
+
+/Shushao/vendor/**/**

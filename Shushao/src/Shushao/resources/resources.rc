@@ -1,0 +1,22 @@
+#include <windows.h>
+#include "Resources.h"
+
+/* https://docs.microsoft.com/en-us/windows/desktop/menurc/resource-types */
+
+STANDARDSHADER_VERT     RCDATA  "../Shaders/glsl/standardshader.vert"
+STANDARDSHADER_FRAG     RCDATA  "../Shaders/glsl/standardshader.frag"
+BASESHADER_VERT         RCDATA  "../Shaders/glsl/baseshader.vert"
+BASESHADER_FRAG         RCDATA  "../Shaders/glsl/baseshader.frag"
+FONTSHADER_VERT         RCDATA  "../Shaders/glsl/fontshader.vert"
+FONTSHADER_FRAG         RCDATA  "../Shaders/glsl/fontshader.frag"
+WIREFRAMESHADER_VERT    RCDATA  "../Shaders/glsl/wireframeshader.vert"
+WIREFRAMESHADER_FRAG    RCDATA  "../Shaders/glsl/wireframeshader.frag"
+PHONGSHADER_VERT        RCDATA  "../Shaders/glsl/phongshader.vert"
+PHONGSHADER_FRAG        RCDATA  "../Shaders/glsl/phongshader.frag"
+PARTICLESSHADER_VERT    RCDATA  "../Shaders/glsl/particlesshader.vert"
+PARTICLESSHADER_FRAG    RCDATA  "../Shaders/glsl/particlesshader.frag"
+PARTICLESSHADER_GEOM    RCDATA  "../Shaders/glsl/particlesshader.geom"
+
+IMG_AVATAR              RCDATA  "avatar.png"
+
+FONT_CONSOLAS           FONT    "consolas.ttf"

@@ -1,0 +1,27 @@
+[submodule "Shushao/vendor/imgui"]
+	path = Shushao/vendor/imgui
+	url = https://github.com/TheCherno/imgui
+[submodule "Shushao/vendor/glm"]
+	path = Shushao/vendor/glm
+    url = https://github.com/g-truc/glm
+[submodule "Shushao/vendor/spdlog"]
+	path = Shushao/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Shushao/vendor/GLFW"]
+	path = Shushao/vendor/GLFW
+	url = https://github.com/glfw/glfw
+[submodule "Shushao/vendor/boost"]
+	path = Shushao/vendor/boost
+	url = https://github.com/boostorg/boost.git
+[submodule "Shushao/vendor/freetype"]
+	path = Shushao/vendor/freetype
+	url = https://github.com/aseprite/freetype2.git
+[submodule "Shushao/vendor/Box2D"]
+	path = Shushao/vendor/Box2D
+	url = https://github.com/erincatto/Box2D
+[submodule "Shushao/vendor/SOIL"]
+	path = Shushao/vendor/SOIL
+	url = https://github.com/stefanocaronia/SOIL2
+[submodule "Shushao/vendor/Glad"]
+	path = Shushao/vendor/Glad
+	url = https://github.com/stefanocaronia/Glad

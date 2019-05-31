@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "compilerPath": "C:/bin/mingw64/mingw64/bin/g++",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "C:/bin/mingw64/mingw64/**",
+                "${workspaceFolder}/Game/src/*",
+                "${workspaceFolder}/Shushao/src/*",
+                "${workspaceFolder}/Shushao/vendor/GLFW/include/*",
+                "${workspaceFolder}/Shushao/vendor/Glad/include/*",
+                "${workspaceFolder}/Shushao/vendor/spdlog/include/*",
+                "${workspaceFolder}/Shushao/vendor/boost/*",
+                "${workspaceFolder}/Shushao/vendor/glm/*",
+                "${workspaceFolder}/Shushao/vendor/SOIL/include/*",
+                "${workspaceFolder}/Shushao/vendor/Box2D/*",
+                "${workspaceFolder}/Shushao/vendor/freetype/include/*"
+            ]
+        }
+    ],
+    "version": 4
+}

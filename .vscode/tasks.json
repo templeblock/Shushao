@@ -1,0 +1,93 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "mingw32-make -j 7",
+            "presentation": {
+                "clear": true
+            }
+            /* "options": {
+                "shell": {
+                    "executable": "cmd.exe",
+                    "args": ["/d", "/c"]
+                }
+            } */
+        },
+        {
+            "label": "Build Release",
+            "type": "shell",
+            "group": "build",
+            "command": "mingw32-make -j 7 config=Release",
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Rebuild",
+            "type": "shell",
+            "group": "build",
+            "command": "mingw32-make clean && mingw32-make -j 7",
+            //"command": "mingw32-make clean && mingw32-make",
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Build & Run",
+            "type": "shell",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "command": "mingw32-make -j 7 && cd bin/Debug-windows-x86_64/Game &&./Game.exe",
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Run",
+            "type": "shell",
+            "group": "test",
+            "command": "cd bin/Debug-windows-x86_64/Game &&./Game.exe",
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "mingw32-make clean",
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Build current file",
+            "type": "shell",
+            "command": "mingw32-make single FILE=${relativeFile}",
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true
+            }
+        },
+        {
+            "label": "Header Precompilation",
+            "type": "shell",
+            "command": "mingw32-make precomp",
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true
+            }
+        }
+    ]
+}

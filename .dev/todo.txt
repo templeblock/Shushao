@@ -1,0 +1,29 @@
+
+https://github.com/stefanocaronia/ShushaoEngine/projects/1
+
+BUG:
+
+le proporzioni sulla canvas screen non sembrano a posto
+
+FUNZIONALITA':
+
+- funzioni rotate 2D in transform
+- aggiungere contatti in contact listener
+- gestire regole di collisione coi layer
+- filtro collisioni custom: impedire collisioni stesso oggetto
+- proprietà del rigidbody, damping, bullet, gravityscale, mass
+
+Componenti UI:
+
+- Layout Element
+- Vertical Layout
+- Horizontal Layout
+- Grid Layout
+
+3D
+
+- caricare mesh con assimp
+- draw per index?
+- load material text file da classe material
+- classe model (più mesh)?
+- importatore assimp di model?
